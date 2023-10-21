@@ -11,10 +11,10 @@ function App() {
 
         <Routes>
 
-          <Route path='./musifyt' element={<Page />} />
-          <Route path='./music' element={<Musicpage />} />
-          <Route path='./About' element={<About />} />
-          <Route path='./login' element={<Loginpage />} />
+          <Route path='/musifyt' element={<Page />} />
+          <Route path='/music' element={<Musicpage />} />
+          <Route path='/About' element={<About />} />
+          <Route path='/login' element={<Loginpage />} />
 
 
         </Routes>
