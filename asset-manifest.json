@@ -1,28 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.e2d287af.css",
-    "main.js": "/static/js/main.f8de5704.js",
-    "static/js/787.4d7b0ae4.chunk.js": "/static/js/787.4d7b0ae4.chunk.js",
-    "static/media/listening-to-music.jpeg": "/static/media/listening-to-music.91da8024841c6a7ffee4.jpeg",
-    "static/media/no.png": "/static/media/no.1a3d4d34f6f6f1f4ba55.png",
-    "static/media/headphone.png": "/static/media/headphone.c29c6fbd0e159e673420.png",
-    "static/media/Screenshot at Jan 15 20-15-07.png": "/static/media/Screenshot at Jan 15 20-15-07.ca4e2ca636daa14df29e.png",
-    "static/media/Screenshot at Jan 15 21-09-04.png": "/static/media/Screenshot at Jan 15 21-09-04.2ed02c72c3f8a3f8dd11.png",
-    "static/media/fast-delivery.png": "/static/media/fast-delivery.a6b78b72bbe0a2caa287.png",
-    "static/media/infos.png": "/static/media/infos.aa1246537a257dbe027f.png",
-    "static/media/play-button.png": "/static/media/play-button.a0fbf0a90ff39e398026.png",
-    "static/media/home-page.png": "/static/media/home-page.be7ec3b8b0a4d85a082b.png",
-    "static/media/easy.png": "/static/media/easy.41151d2ebea262eb4ef6.png",
-    "static/media/backward.png": "/static/media/backward.837769921a8df7fc2041.png",
-    "static/media/Screenshot at Jan 15 20-13-09.png": "/static/media/Screenshot at Jan 15 20-13-09.203872b60b657125a7ba.png",
-    "static/media/stop-button.png": "/static/media/stop-button.13904ebb4ffa104ea4b9.png",
-    "index.html": "/index.html",
-    "main.e2d287af.css.map": "/static/css/main.e2d287af.css.map",
-    "main.f8de5704.js.map": "/static/js/main.f8de5704.js.map",
-    "787.4d7b0ae4.chunk.js.map": "/static/js/787.4d7b0ae4.chunk.js.map"
+    "main.css": "/musifyt/static/css/main.a044f7ca.css",
+    "main.js": "/musifyt/static/js/main.4e0b412c.js",
+    "static/js/787.4d7b0ae4.chunk.js": "/musifyt/static/js/787.4d7b0ae4.chunk.js",
+    "static/media/listening-to-music.jpeg": "/musifyt/static/media/listening-to-music.91da8024841c6a7ffee4.jpeg",
+    "static/media/no.png": "/musifyt/static/media/no.1a3d4d34f6f6f1f4ba55.png",
+    "static/media/headphone.png": "/musifyt/static/media/headphone.c29c6fbd0e159e673420.png",
+    "static/media/Screenshot at Jan 15 20-15-07.png": "/musifyt/static/media/Screenshot at Jan 15 20-15-07.ca4e2ca636daa14df29e.png",
+    "static/media/Screenshot at Jan 15 21-09-04.png": "/musifyt/static/media/Screenshot at Jan 15 21-09-04.2ed02c72c3f8a3f8dd11.png",
+    "static/media/fast-delivery.png": "/musifyt/static/media/fast-delivery.a6b78b72bbe0a2caa287.png",
+    "static/media/infos.png": "/musifyt/static/media/infos.aa1246537a257dbe027f.png",
+    "static/media/2790779.png": "/musifyt/static/media/2790779.2078a4a4a12eebc2d2e4.png",
+    "static/media/2790778.png": "/musifyt/static/media/2790778.be6d21a12fde789678aa.png",
+    "static/media/play-button.png": "/musifyt/static/media/play-button.a0fbf0a90ff39e398026.png",
+    "static/media/home-page.png": "/musifyt/static/media/home-page.be7ec3b8b0a4d85a082b.png",
+    "static/media/easy.png": "/musifyt/static/media/easy.41151d2ebea262eb4ef6.png",
+    "static/media/Screenshot at Jan 15 20-13-09.png": "/musifyt/static/media/Screenshot at Jan 15 20-13-09.203872b60b657125a7ba.png",
+    "static/media/stop-button.png": "/musifyt/static/media/stop-button.13904ebb4ffa104ea4b9.png",
+    "index.html": "/musifyt/index.html",
+    "main.a044f7ca.css.map": "/musifyt/static/css/main.a044f7ca.css.map",
+    "main.4e0b412c.js.map": "/musifyt/static/js/main.4e0b412c.js.map",
+    "787.4d7b0ae4.chunk.js.map": "/musifyt/static/js/787.4d7b0ae4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e2d287af.css",
-    "static/js/main.f8de5704.js"
+    "static/css/main.a044f7ca.css",
+    "static/js/main.4e0b412c.js"
   ]
 }
