@@ -3,7 +3,8 @@ import axios from 'axios'
 import { Link } from "react-router-dom";
 import playicon from '../images/play-button.png'
 import stop from '../images/stop-button.png'
-import control from '../images/backward.png'
+import backward from '../images/2790779.png'
+import forward from '../images/2790778.png'
 const Music =(props)=>{
     const url= 'http://localhost/musicplayerplaylist/addplaylist.php'
     const [input,setinput] = useState('')
@@ -66,7 +67,7 @@ const Music =(props)=>{
         const songurls = songs.fileurls
         if(!songnames.includes(songfile.name)){
         setsongs({filenames:[...songnames,songfile.name],fileurls:[...songurls,song]})
-        axios({
+        /* axios({
           url:url,
           method:'post',
           data:{
@@ -84,10 +85,10 @@ const Music =(props)=>{
             }).catch((err)=>console.log(err))
           }
         }).catch((err)=>console.log(err))
-       
-        }
+       */
         
-     }
+        
+     }}
      const dec =()=>{
       document.getElementById('audio').currentTime  -= 10
      }
@@ -157,12 +158,12 @@ const Music =(props)=>{
                 </div>
                 <input type="range" id='volume'  className='volume' min="0" onChange={(e)=>setvolume(e.target.value)} onClick={volumechange} max='100' value={volume} />
                  <div className='btns' >
-                  <button className=''  onClick={dec}><img src={control} style={{width:50,height:50}}></img></button>
+                  <button className=''  onClick={dec}><img src={backward} style={{width:50,height:50}}></img></button>
                   <button className='play' onClick={()=>selected?setplay(!play):''}><img src={play?stop:playicon} style={{width:50,height:50}} /></button>
-                  <button className=''  onClick={inc}><img src={control} style={{width:50,height:50,imageOrientation: 'revert',transform:'rotateY(180deg)'}}/></button>
+                  <button className=''  onClick={inc}><img src={forward} style={{width:50,height:50}}/></button>
                   </div>
                 <audio id='audio'  controls  hidden></audio>
-              </div>
+              </div>{/*
               <div className='playlist-container'>
                   <h2>Add Song To Your Favorites:</h2>
                   <h3 className='song-name' >{songfile!=null?songfile.name:''}</h3>
@@ -172,6 +173,7 @@ const Music =(props)=>{
                   <h2>Favorites : </h2>
                   {<h3 className='playlist-names'>{data}</h3> }
               </div>
+    */}
           </div>
       </section>
     )

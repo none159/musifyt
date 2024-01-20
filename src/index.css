@@ -359,9 +359,6 @@ audio {
   transform: scale(1.05);
   border-radius: 0.5em;
 }
-.song-player .btns button img {
-  box-shadow: 5px 5px black, 10px 10px 8px black, 15px 15px 8px black;
-}
 
 .song-player .timestamp {
   font-weight: 300;
@@ -465,7 +462,7 @@ audio {
 }
 footer {
   position: relative;
-  top: 100vh;
+  top: 70vh;
   background-color: #c724b1;
   border-top: 2px solid #4d4dff;
   box-shadow: 0 0 15px black;
@@ -482,6 +479,7 @@ footer .footer-container {
 footer .footer-container .footer-links {
   display: grid;
   gap: 10px;
+  text-decoration: none;
 }
 footer .footer-container .footer-links h2 {
   color: #222222;

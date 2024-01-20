@@ -14,7 +14,7 @@ const Nav = ()=>{
              
                 <div className='links' id='links'>
                     <div className='link' id='home-link'>
-                    <Link to='/'><img src={home}></img></Link>
+                    <Link to='/musifyt'><img src={home}></img></Link>
                     <h2>Home</h2>
                     </div>
                     <div className='link' id='music-link'>

@@ -20,10 +20,6 @@ const Hero = ()=>{
                       <img src={listen}></img>
                   </div>
                   <div>
-                      <h2>Login to the website and make your own playlist.</h2>
-                      <img src={login}></img>
-                  </div>
-                  <div>
                       <h2>Create different playlist of your choice by clicking add to the playlist.</h2>
                       <img src={playlist}></img>
                   </div>
